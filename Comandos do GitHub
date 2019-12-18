@@ -1,0 +1,58 @@
+
+git config -l                                 // Listar config
+
+git status                                    // Mostrar arquivos alterados ou adcionados
+
+git add .                                     // Adcionar todos os arquivos
+
+git add name.file                             // Adcionar arquivo alterado
+
+git commit -m"message"                        // Commitar
+
+git commit                                    // Commitar e escrever titulo
+
+git commit -a -m"message"                     // Commitar e adcionar
+
+git push                                      // Mandar alerações   para o remoto 
+
+git log                                       // Mostrar Commits
+
+git log --name-status	                      // Commits como nome do arquivo
+
+git checkout                                  // Desfazer arquivo modificado
+
+git diff                                      // Mostra ultima alteração
+
+git diff <commit commit>					  // Mostrar alterações entre commits
+
+git rm <name.file>                            // Deletar arquivos
+
+gti rm <name.file> --cached                   // Delete sem deletar na area
+
+git clone                                     // Clonar repositorio no remoto
+
+git pull                                      // Baixar commits de  outro membro da equipe
+
+git checkout branch                           // entrar na branch
+
+git checkout (commit Historico )              // Percorrer historico
+
+git checkout -- (name.file)                   // Desfazer alterações
+
+git checkout HEAD (name.file)                 // Desfazer alterações desde o ultimo commit incluindo o Stage
+
+git reser HEAD~                               // Desfazer um commit
+
+git branch  (name.branch)                     // Nova branch
+
+git branch -d  (name.branch)				  // Delete de branch
+
+git merge                                     // Junção de ramificações em caso de conflitos
+
+git rebase                                    // Junção de ramificações em caso de conflitos, adcionados um por um
+
+git fetch         							  //
+
+git add --all                                 // adcionar arquivos deletados
+
+echo.gitgnore
